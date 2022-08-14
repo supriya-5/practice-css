@@ -1,0 +1,97 @@
+.box1{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    
+}
+.box2{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+   top: 50px;
+   left: 50px;
+   z-index: -1;
+}
+.box3{
+    background-color: chartreuse;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+    
+}
+.box4{
+    background-color: darksalmon;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+.linear{
+    width: 200px;
+    height: 200px;
+   background-image: linear-gradient(to top,
+   aqua,
+   yellow,
+   violet
+   );
+}
+.linear1{
+    width: 200px;
+    height: 200px;
+   background-image: linear-gradient(to top right,
+   aqua,
+   yellow,
+   violet
+   );
+}
+/* to bottom
+to bottom right
+to bottom left
+to top left */
+
+.linear2{
+    width: 200px;
+    height: 200px;
+   background-image: linear-gradient(
+       135deg,
+   aqua,
+   yellow,
+   violet
+   );
+}
+.linear3{
+    width: 200px;
+    height: 200px;
+   background-image: linear-gradient(
+       225deg,
+   aqua 30%,
+   yellow 30% 60%,
+   violet 60% 90%
+   ); 
+}
+.radial{
+    width: 200px;
+    height: 200px;
+   background-image: radial-gradient(
+    aqua ,
+    yellow ,
+    violet 
+   );    
+
+}
+.conic{
+    width: 200px;
+    height: 200px;
+   background-image: conic-gradient(
+   
+    aqua 30deg,
+    yellow 30deg 60deg,
+    violet 60deg 90deg
+   );    
+
+}

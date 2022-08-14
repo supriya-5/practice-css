@@ -1,0 +1,44 @@
+.transform{
+    width: 100px;
+    height: 100px;
+    transition: all 4s;
+}
+.transform:hover{
+    transform: scale(2) rotatez(40deg) translateY(100px) skewX(120deg);
+}
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: darkmagenta;
+    /* animation-name: sample;
+    animation-duration: 20s;
+    animation-iteration-count: 5;
+    animation-timing-function: linear; */
+    animation: sample 8s linear 0 5 reverse running;
+}
+/* @keyframes sample{
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: brown;
+    }
+    50%{
+        background-color: darkgreen;
+    }
+    75%{
+        background-color: darkseagreen;
+    }
+    100%{
+        background-color: deepskyblue;
+    }
+} */
+@keyframes sample{
+    from{
+        background-color: darkred;
+    }
+    to{
+        background-color: gold;
+        border-radius: 50%;
+    }
+}

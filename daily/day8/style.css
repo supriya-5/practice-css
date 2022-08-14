@@ -1,0 +1,36 @@
+/* .shadow{
+    box-shadow: 2px 2px 8px gray;
+} */
+
+.grid-container{
+    background-color: rgb(18, 93, 122);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-items{
+    background-color: skyblue;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.q{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.w{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.t{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+ul{
+    background-color: aqua;
+    padding: 10px;
+    list-style: circle inside url(https://picsum.photos/seed/picsum/10/10);
+}
+li{
+    padding: 20px;
+}

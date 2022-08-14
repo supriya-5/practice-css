@@ -1,0 +1,30 @@
+.test{
+    background-color: coral;
+    font-size: 50px;
+}
+.test1{
+    color: cadetblue;
+}
+.test2{
+    color:forestgreen
+}
+.test3{
+    color: lightcyan;
+}
+h1{
+    background-color: brown;
+}
+#test{
+    color: aquamarine;
+    font-size: 40px;
+}
+#test1{
+    color: cornflowerblue;
+    font-size: 40px;
+
+}
+#test2{
+    color: gold;
+    font-size: 40px;
+
+}

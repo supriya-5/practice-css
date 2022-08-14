@@ -1,0 +1,78 @@
+.test{
+    background-color: aqua;
+    padding: 20px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: brown;
+    margin: 25px;
+    
+}
+.test1{
+    background-color: darkblue;
+    padding: 20px 30px;
+    border-style: dashed dotted;
+    border-width: 3px 2px;
+    border-color: cornflowerblue gold;
+    margin: 10px 5px 20px 15px;
+}
+.test2{
+    background-color: darkgray;
+    padding: 20px 30px 10px;
+    border-style: dashed dotted double;
+    border-width: 3px 4px 5px;
+    border-color: indianred lawngreen olive;
+    margin: 12px 20px 6px ;    
+}
+.test3{
+    background-color: darksalmon;
+    padding: 20px 10px 30px 15px;
+    border-style: dashed dotted double solid;
+    border-width: 2px 3px 4px 5px;
+    border-color: aliceblue crimson darkmagenta firebrick;
+    margin: 5px 10px 15px 20px;
+}
+.test4{
+    background-color: honeydew;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+    border-left-style: dashed;
+    border-right-style: groove;
+    border-top-style: dotted;
+    border-bottom-style: solid;
+    border-top-width: 2px;
+    border-right-width: 3px;
+    border-bottom-width: 4px;
+    border-left-width: 5px;
+    border-top-color: palegreen;
+    border-bottom-color:red ;
+    border-left-color: silver;
+    border-right-color: khaki;
+}
+.test5{
+    border-top: 2px solid indianred;
+    border-bottom: 3px dashed gold;
+    border-left: 4px dotted violet;
+    border-right: 5px groove royalblue;
+    background-color: antiquewhite;
+}
+.test6{
+    border:3px solid yellowgreen;
+    background-color: beige;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-left: 12px;
+    margin-right: 7px;
+}
+.radius{
+    background-color: crimson;
+    border-radius: 20px;
+}
+.radius1{
+   border-top-right-radius: 10px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 25px;
+ background-color: blue;
+}

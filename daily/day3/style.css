@@ -1,0 +1,47 @@
+.html{
+    font-size: 32px;
+}
+.pixel{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+}
+.parent{
+    background-color: cadetblue;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+}
+.child{
+    background-color: crimson;
+    width: 50%;
+    height: 50%;
+}
+
+.pic{
+    width: 50%;
+    height: 50%;
+}
+.em-parent{
+    background-color:firebrick;
+    width: 500px;
+    height: 500px;
+   padding: 20px;
+   color: white;
+}
+.em-child{
+    background-color: darksalmon;
+    font-size: 1rem;
+    padding: 2em;
+}
+.vh{
+    background-color: yellowgreen;
+    width: 20vh;
+    height: 30vh;
+
+}
+.vw{
+    background-color: orange;
+    width: 50vw;
+    height: 40vw;
+}

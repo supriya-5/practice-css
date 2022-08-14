@@ -1,0 +1,68 @@
+
+.circle{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.bg-img{
+background-image: url(https://miro.medium.com/max/462/1*_Q0vGWv0CTxyZhF8hl5AfA.png);
+border: 3px solid black;
+height: 500px;
+width: 500px;
+background-repeat: no-repeat;
+/* background-size: cover;
+background-size: contain; */
+background-size: 100% 100%;
+}
+.inline1{
+    background-color: darkslategrey;
+    width: 100px;
+    height: 100px;
+}
+.inline2{
+    background-color:red;
+    width: 100px;
+    height: 100px;
+    display: inline;
+    padding: 20px;
+    margin: 30px;
+}
+.inline3{
+    background-color: olive;
+    width: 100px;
+    height: 100px;
+}
+
+.inline-block1{
+    background-color: darkslategrey;
+    width: 100px;
+    height: 100px;
+}
+.inline-block2{
+    background-color:red;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 20px;
+    margin: 30px;
+}
+.inline-block3{
+    background-color: olive;
+    width: 300px;
+    height: 300px;
+}
+.flex-container{
+    display: flex;
+    background-color: orangered;
+    padding: 30px;
+    /* flex-direction: column;
+    flex-wrap: nowrap; */
+     flex-flow: column nowrap; 
+}
+.flex-item{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 5px;
+    background-color: aqua;
+}

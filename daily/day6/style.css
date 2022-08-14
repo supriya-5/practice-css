@@ -1,0 +1,123 @@
+.flex-container{
+    display: flex;
+    background-color: orangered;
+    padding: 30px;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+     flex-flow: column wrap; 
+     height: 300px;
+     width: 500px;
+}
+.flex-item{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 5px;
+    background-color: aqua;
+}
+.flex-container1{
+    display: flex;
+    background-color: olive;
+    padding: 30px;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+     flex-flow: row wrap; 
+     height: 300px;
+     width: 500px;
+     justify-content:space-between ;
+}
+.flex-item1{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 5px;
+    background-color: navy;
+
+}
+.flex-container2{
+    display: flex;
+    background-color: gold;
+    padding: 30px;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+     flex-flow: row wrap; 
+     height: 300px;
+     width: 500px;
+     justify-content:space-evenly ;
+}
+.flex-item2{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 5px;
+    background-color: greenyellow;
+
+}
+.flex-container3{
+    display: flex;
+    background-color: hotpink;
+    padding: 30px;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+     flex-flow: row wrap; 
+     height: 300px;
+     width: 500px;
+     justify-content:space-around ;
+}
+.flex-item3{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 5px;
+    background-color: darkcyan;
+
+}
+.flex-container4{
+    display: flex;
+    background-color: hotpink;
+    padding: 30px;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+     flex-flow: column wrap; 
+     height: 300px;
+     width: 500px;
+     align-items: center;
+     /* flex-start
+     flex-end */
+  /* align-content: space-around;
+  space-evenly
+  space-between */
+}
+.flex-item4{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 5px;
+    background-color: darkcyan;
+
+}
+.self{
+    align-self: flex-end;
+}
+.position1{
+    background-color: blue;
+    position: static;
+}
+.position2{
+    background-color: pink;
+    position: relative;
+    width: 300px;
+    top: 200px;
+}
+.position3{
+    background-color: green;
+    position: absolute;
+    left: 200px;
+    
+}
+.position4{
+    background-color: violet;
+    position: fixed;
+    top: 500px;
+    
+}
+.position5{
+    background-color: yellow;
+    position: sticky;
+    bottom: 200px;
+}

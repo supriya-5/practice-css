@@ -1,0 +1,81 @@
+.content{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    color: violet;
+    padding: 30px;
+    border: 40px solid;
+    /*box-sizing-default*/
+}
+.border{
+    width: 300px;
+    height: 300px;
+    background-color: khaki;
+    color: green;
+    padding: 30px;
+    border: 40px solid;
+    
+}
+span{
+    color: chartreuse;
+}
+.font{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hover{
+    width:300px;
+    height: 300px;
+    background-color: darkorange;
+    color: white;
+}
+.hover:hover{
+    background-color: aqua;
+    color: black;
+    
+}
+.button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+   border: none;
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px blue;
+}
+input{
+    border: none;
+    padding: 20px;
+}
+table{
+    border-bottom: 1px solid ;
+  background-color: olive;
+  width: 300px;
+  height: 400px;
+}
+th,td{
+    border-bottom: 1px solid ;
+    text-align: center; 
+}
+/*text-align:left,right and center
+vertical-align:top,bottom and center*/
+.transition{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+   transition: all 5s linear;
+}
+.transition:hover{
+    width: 300px;
+    background-color: aquamarine;
+
+}
+.transform{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.transform:hover{
+    transform: rotate(120deg);
+}
